@@ -1,0 +1,34 @@
+.header h1 {
+    padding: 0;
+    margin: 0;
+}
+.header {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    flex-grow: 1;
+    padding: 10px 30px;
+}
+
+.header .main-menu {
+    flex-grow: 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.header .main-menu ul,
+.header .main-menu ul li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
